@@ -1,0 +1,28 @@
+@import "iransans";
+body {
+  direction: rtl;
+  font-family: "IRANSans"
+}
+.main-menu > .item {
+    float: right;
+}
+header {
+  .icon.arrow.left {
+    transform: rotateZ(180deg);
+  }
+}
+.item-title, .ui.menu, .ui.header {
+  font-family: "IRANSans" ;
+}
+
+.ui.button {
+  font-family: "IRANSans" ;
+  font-weight: 100;
+}
+.ui.table {
+  text-align: right;
+}
+
+.symbol{
+  padding-top: 95px;
+}

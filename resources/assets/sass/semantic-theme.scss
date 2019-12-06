@@ -1,0 +1,45 @@
+.ui.menu {
+  box-shadow: none !important;
+  opacity: 0.95;
+}
+.ui.menu {
+  .container {
+    flex-wrap: wrap;
+  }
+  .item {
+    padding: 5px 10px !important;
+    transition: all .3s;
+  }
+  .logo-container {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+  }
+  .item:hover {
+    background: inherit !important;
+    color: #0070c9 !important;
+    svg * {
+      fill: #0070c9
+    }
+  }
+}
+.ui.search input {
+  transition: all .3s;
+}
+i.icon, i.icons {
+    font-size: 1.3em;
+}
+.ui.button.icon.right{
+  padding-left: 0.8em !important;
+  padding-right: 2.8em !important;
+}
+.ui.button.icon.right .icon{
+  left: auto !important;
+  right: 0 !important;
+}
+.ui.pagination.menu .item {
+  justify-content: center;
+}
+.ui.menu .active.item:hover, .ui.vertical.menu .active.item:hover {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    color: rgba(0, 0, 0, 0.95) !important;
+}
